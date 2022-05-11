@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{dd651a37-3a6c-4f8e-aa14-cf5d4b164080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{4ab32ba6-4fba-41f3-a7b3-d74f8acd2df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{45433574-529e-4df6-8219-efa1400c32fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light Manager">
+      <UniqueIdentifier>{5ec5102b-f6f3-453a-976b-57f770ed3dbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meshes">
+      <UniqueIdentifier>{249a8f15-fa23-44a6-8e9e-8a641b34b4a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meshes\VAO Manager">
+      <UniqueIdentifier>{480a9cfd-df08-4cef-9770-395a37b93323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics Particles">
+      <UniqueIdentifier>{1bb4b4c2-0f15-4801-9e75-713e3e52ef55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics Rigidbody">
+      <UniqueIdentifier>{ea12632f-2538-4024-b0f6-20f9df39c15a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Manager">
+      <UniqueIdentifier>{6d2c4be8-60a5-44cc-b527-a468f77bb720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Manager\Shaders">
+      <UniqueIdentifier>{f65bf9c5-ad91-46b5-a566-eafe99d0775e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture Manager">
+      <UniqueIdentifier>{138764a2-5938-47c7-9f0a-403140f713b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Manager\Shaders\Animation 2">
+      <UniqueIdentifier>{04dd0525-40c6-478c-9717-581e7a8d3295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation\Bones">
+      <UniqueIdentifier>{3f8eb4a5-38ec-4ae3-a72b-dd7d6cae49d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="cAnimatedEntity.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="cAnimationSystem.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyFrame.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="globalThings.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="cEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLMCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cLightHelper.h">
+      <Filter>Light Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cLightManager.h">
+      <Filter>Light Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cVAOManager.h">
+      <Filter>Meshes\VAO Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cMesh.h">
+      <Filter>Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\physics\cParticle.h">
+      <Filter>Physics Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\physics\cParticleContact.h">
+      <Filter>Physics Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\physics\cParticleContactResolver.h">
+      <Filter>Physics Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\physics\cParticleForceRegistry.h">
+      <Filter>Physics Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\physics\cParticleWorld.h">
+      <Filter>Physics Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\physics\iParticleContactGenerator.h">
+      <Filter>Physics Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\physics\iParticleForceGenerator.h">
+      <Filter>Physics Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\physics\particle_constraints.h">
+      <Filter>Physics Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\physics\particle_contact_generators.h">
+      <Filter>Physics Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\physics\random_helpers.h">
+      <Filter>Physics Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>Physics Rigidbody</Filter>
+    </ClInclude>
+    <ClInclude Include="cShaderManager.h">
+      <Filter>Shader Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="sVertex_types.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMapping\C24BitBMPpixel.h">
+      <Filter>Texture Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMapping\cBasicTextureManager.h">
+      <Filter>Texture Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMapping\CTextureFromBMP.h">
+      <Filter>Texture Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Bone.h">
+      <Filter>Animation\Bones</Filter>
+    </ClInclude>
+    <ClInclude Include="BoneHierarchy.h">
+      <Filter>Animation\Bones</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoneSystem.h">
+      <Filter>Animation\Bones</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoneEntity.h">
+      <Filter>Animation\Bones</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cAnimatedEntity.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="cAnimationSystem.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="globalThings.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Shutdown.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="StartUp.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="cGLFWKeyboadModifiers.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFW_error_callback.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFW_key_callback.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandling.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="cLightHelper.cpp">
+      <Filter>Light Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cLightManager.cpp">
+      <Filter>Light Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cVAOManager.cpp">
+      <Filter>Meshes\VAO Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cMesh.cpp">
+      <Filter>Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\cParticle.cpp">
+      <Filter>Physics Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\cParticleContact.cpp">
+      <Filter>Physics Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\cParticleContactResolver.cpp">
+      <Filter>Physics Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\cParticleForceRegistry.cpp">
+      <Filter>Physics Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\cParticleWorld.cpp">
+      <Filter>Physics Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\particle_constraints.cpp">
+      <Filter>Physics Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\particle_contact_generators.cpp">
+      <Filter>Physics Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\random_helpers.cpp">
+      <Filter>Physics Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="cShader.cpp">
+      <Filter>Shader Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cShaderManager.cpp">
+      <Filter>Shader Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawObject_function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMapping\C24BitBMPpixel.cpp">
+      <Filter>Texture Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMapping\cBasicTextureManager.cpp">
+      <Filter>Texture Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMapping\CTextureFromBMP.cpp">
+      <Filter>Texture Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoneSystem.cpp">
+      <Filter>Animation\Bones</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoneEntity.cpp">
+      <Filter>Animation\Bones</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\common\assets\shaders\fragShader_01.glsl">
+      <Filter>Shader Manager\Shaders</Filter>
+    </None>
+    <None Include="..\common\assets\shaders\geomShader.glsl">
+      <Filter>Shader Manager\Shaders</Filter>
+    </None>
+    <None Include="..\common\assets\shaders\vertShader_01.glsl">
+      <Filter>Shader Manager\Shaders</Filter>
+    </None>
+    <None Include="..\common\assets\shaders\BoneShader.fragment.glsl">
+      <Filter>Shader Manager\Shaders\Animation 2</Filter>
+    </None>
+    <None Include="..\common\assets\shaders\BoneShader.vertex.glsl">
+      <Filter>Shader Manager\Shaders\Animation 2</Filter>
+    </None>
+    <None Include="..\common\assets\shaders\TentacleShader.fragment.glsl">
+      <Filter>Shader Manager\Shaders\Animation 2</Filter>
+    </None>
+    <None Include="..\common\assets\shaders\TentacleShader.vertex.glsl">
+      <Filter>Shader Manager\Shaders\Animation 2</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\common\assets\directional lights.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="..\common\assets\lights.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="..\common\assets\worldFile.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
